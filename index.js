@@ -61,13 +61,14 @@ const questions = [
     },
     {
         type: "input",
-        name:"Questions",
+        name:"questions",
         message:"provide your Email if you want questions.",
     },
     {
-        type: "input",
-        name:"contents",
-        message:"",
+        type: "confirm",
+        name: "tableOfContents",
+        message: "Do you want to include a table of contents?",
+        default: true
     },
 ]
 
